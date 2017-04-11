@@ -1,7 +1,9 @@
-Chương trình bao gồm 3 file test:
+Chương trình bao gồm 5 file test:
   - Test server
   - Test user
   - Test prediction
+  - Test load balancing
+  - Test fast script
 
 Để chạy test:
 1. Tạo database MONITOR_TEST
