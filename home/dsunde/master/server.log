@@ -1,0 +1,72 @@
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 71, in <module>
+    updateServer()
+  File "serverMonitor.py", line 31, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 71, in <module>
+    updateServer()
+  File "serverMonitor.py", line 31, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 74, in <module>
+    updateServer()
+  File "serverMonitor.py", line 31, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 75, in <module>
+    updateServer()
+  File "serverMonitor.py", line 31, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 78, in <module>
+    updateServer()
+  File "serverMonitor.py", line 33, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 78, in <module>
+    updateServer()
+  File "serverMonitor.py", line 33, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 78, in <module>
+    updateServer()
+  File "serverMonitor.py", line 33, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack
+ERROR:root:Error : 
+Traceback (most recent call last):
+  File "serverMonitor.py", line 78, in <module>
+    updateServer()
+  File "serverMonitor.py", line 33, in updateServer
+    ram, available, cache = getRAM()
+  File "serverMonitor.py", line 24, in getRAM
+    = psutil.virtual_memory()[:9]
+ValueError: need more than 5 values to unpack

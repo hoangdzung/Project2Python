@@ -1,0 +1,297 @@
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 194, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 305, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 141, in calculateResources
+    procCPU, procRAM, procrss, procvms, procReadIO, procWriteIO = getProcResources(proc, pid)
+  File "userMonitor.py", line 195, in getProcResources
+    return sumCPU, sumRAM, sumRAMrss, sumRAMvms, sumReadIO, sumWriteIO
+UnboundLocalError: local variable 'sumCPU' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 153, in calculateResources
+    addUser(real, username)
+  File "userMonitor.py", line 265, in addUser
+    (hostname, real, username))
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 190, in execute
+    r = self._query(query)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 354, in _query
+    rowcount = self._do_query(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 318, in _do_query
+    db.query(q)
+KeyboardInterrupt
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 304, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 140, in calculateResources
+    timestamp, real, username, name, pid, cmd = getProcData(proc)
+  File "userMonitor.py", line 175, in getProcData
+    return timestamp, real, username, name, pid, cmd
+UnboundLocalError: local variable 'real' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 312, in <module>
+    processList = processList2()
+  File "userMonitor.py", line 50, in processList2
+    for proc in process_iter:
+  File "/usr/local/lib/python2.7/dist-packages/psutil/__init__.py", line 1491, in process_iter
+    if proc.is_running():
+  File "/usr/local/lib/python2.7/dist-packages/psutil/__init__.py", line 605, in is_running
+    return self == Process(self.pid)
+  File "/usr/local/lib/python2.7/dist-packages/psutil/__init__.py", line 381, in __init__
+    self._init(pid)
+  File "/usr/local/lib/python2.7/dist-packages/psutil/__init__.py", line 408, in _init
+    self.create_time()
+  File "/usr/local/lib/python2.7/dist-packages/psutil/__init__.py", line 734, in create_time
+    self._create_time = self._proc.create_time()
+  File "/usr/local/lib/python2.7/dist-packages/psutil/_pslinux.py", line 1314, in wrapper
+    return fun(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/psutil/_pslinux.py", line 1490, in create_time
+    return (float(values[20]) / CLOCK_TICKS) + bt
+KeyboardInterrupt
+ERROR:root:Error: 
+Traceback (most recent call last):
+  File "userMonitor.py", line 317, in <module>
+    calculateResources(completeDict)
+  File "userMonitor.py", line 160, in calculateResources
+    addJob(pid, real, timestamp, name, cmd)
+  File "userMonitor.py", line 287, in addJob
+    if isRunning == 0:
+UnboundLocalError: local variable 'isRunning' referenced before assignment

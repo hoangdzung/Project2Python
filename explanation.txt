@@ -1,0 +1,75 @@
+Chương trình bao gồm 3 file test:
+  - Test server
+  - Test user
+  - Test prediction
+
+Để chạy test:
+1. Tạo database MONITOR_TEST
+  mở MySQL Workbench, đăng nhập > open script file by text editor > chọn file create_dbtest.sql và nhấn thực thi
+2. Bật máy ảo ubuntu
+  trong máy ảo ubuntu, chạy file TestServerMonitor.py bằng lệnh
+    python TestServerMonitor.py -v
+  file test run forever, để dừng nhấn Ctrl + C
+  test bằng cách xem dữ liệu ghi vào database đúng hay không
+    ở máy chính xem dữ liệu trong MySQL Workbench, bảng SERVER và sSAMPLE
+
+  trong máy ảo ubuntu, chạy file TestUserMonitor.py bằng lệnh
+    python TestUserMonitor.py -v
+  file test run forever, để dừng nhấn Ctrl + C
+  test bằng cách xem dữ liệu ghi vào database đúng hay không
+    ở máy chính xem dữ liệu trong MySQL Workbench, bảng USER, JOB, jSAMPLE
+
+3. Ở máy chính chạy test Prediction.
+  lệnh:
+    python TestPrediction.py -v
+
+  Xem dữ liệu trong MySQL Workbench
+
+
+4. Test Load Balancing
+  Xem sơ đồ thuật toán trong file Word bài tập 2
+  Ta có 4 đường thi hành thuật toán. Vì vậy ta sẽ sinh ra dữ liệu để test việc thi hành thuật toán theo 4 đường này.
+  Đầu vào của thuật toán là user id.
+  Kết quả trả lại: server tải thấp nhất (leastLoadServer) hoặc server vừa sử dụng trước đó
+  (lastUsedServer)
+
+  Dữ liệu được ghi trong file /tests/data_test_lb.py.
+  File này chứa các dữ liệu giả mà ta sẽ insert vào database cùng với kết quả mong muốn để kiểm tra chương trình chạy đúng.
+  Nếu chạy test ra kết quả khác với được ghi trong file này => thuật toán của chương trình bị sai.
+
+  Ta sinh dữ liệu sao cho khi gọi đến hàm leastLoadServer kết quả trả lại là server1.
+
+  Trong file TestLoadBalancing.py,
+    Chương trình connect vào database MONITOR_TEST và tạo dữ liệu giả để kiểm thử
+  ta viết 4 hàm test cho 4 đường thực thi.
+  - Hàm test_user_not_exist: User không tồn tại
+    Cho uid = 5, => không tồn tại trong database => kết quả trả lại mong muốn là leastLoadServer = server1
+  - Hàm test_user_exist_cache_false: User tồn tại, cache không còn
+    Cho uid = 2 => tồn tại user trong database, dữ liệu ta đã tạo giả cho trường hợp không còn cache
+    (cachedRam - (max(disk_in) - min(disk_in)) > userLoad (userLoad xem cột avg_ram bảng prediction)) ,
+    kết quả trả lại mong muốn phải là leastLoadServer = server1
+  - Hàm test_user_exist_cache_true_availableCPU_false
+    user tồn tại, còn cache, cpu không đủ.
+    Cho uid = 3 => tồn tại user
+    Dữ liệu tạo giả cho trường hợp còn cache
+    Dữ liệu được tạo giả để tổng %CPU đang được sử dụng + %CPU dự đoán sử dụng của user request đến  > 100%
+    Kết quả trả lại mong muốn phải là leastLoadServer = server1
+  - Hàm test_user_exist_cache_true_availableCPU_true
+    user tồn tại, còn cache, cpu đủ
+    Cho uid = 4 => tồn tại user
+    Dữ liệu tạo giả cho trường hợp còn cache
+    Dữ liệu được tạo giả để tổng %CPU đang được sử dụng + %CPU dự đoán sử dụng của user request đến  <= 100%
+    Kết quả trả lại mong muốn phải là lastUsedServer = server4
+
+Chương trình hoạt động đúng, hay test đúng khi:
+  - ServerMonitor.py: Chỉ có một bản ghi tên server hiện tại trong bảng SERVER,
+    một bản ghi được ghi thông tin server thêm vào bảng sSAMPLE mỗi phút, các thông số
+    chấp nhận được (ví dụ cpu, ram là % được ghi vào bảng với giá trị >= 0 và <= 100)
+  - UserMonitor.py: Chỉ có một bản ghi thông tin user trong bảng USER,
+    các bản ghi thông tin tiến trinh trong bảng JOB chấp nhận được;
+    các bản ghi thông số ram, cpu của tiến trình trong bảng jSAMPLE chấp nhận được
+    (start_time, run_time, các thông số % và bytes hợp lý)
+  - Prediction.py: Trước khi test, xem trong bảng jSAMPLE các thông số ram, cpu lấy giá trị max.
+    Sau khi run TestPrediction.py, chỉ một bản ghi ứng với mỗi user được ghi trong bảng prediction.
+    Các thông số max cpu, max ram đúng như đã xem trước, avg ram, avg cpu hợp lý.
+    Các bản ghi về thông số tiến trình của user trong bảng jSAMPLE với run_time <= max(run_time) đã bị xóa.
